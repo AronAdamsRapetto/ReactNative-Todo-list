@@ -97,3 +97,22 @@ export const analitycsStyle = StyleSheet.create({
     fontWeight: 'bold',
   }
 })
+
+export const tasksDashboardStyles = StyleSheet.create({
+  container: {
+    borderTopWidth: 1,
+    borderStyle: 'solid',
+  },
+
+  emptyListContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 48,
+  },
+
+  emptyListText: {
+    color: '#808080',
+    fontSize: 14,
+    fontWeight: '400',
+  },
+})
